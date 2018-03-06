@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,13 +8,53 @@
     tools:context="us.technerd.tn_bitmaptic_example.MainActivity"
     tools:showIn="@layout/activity_main">
 
-    <TextView
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:gravity="center">
 
-</android.support.constraint.ConstraintLayout>
+        <SeekBar
+            android:id="@+id/blur_radius"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:max="25" />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/img"
+            android:id="@+id/specimen"
+            android:scaleType="centerCrop"
+            />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rotate"
+                android:textAllCaps="false"
+                android:id="@+id/rotate"
+                android:textSize="15sp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Scale with aspect ratio"
+            android:textAllCaps="false"
+            android:textSize="15sp"
+            android:id="@+id/aspect"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reduce pixels per inch"
+            android:id="@+id/pixels"
+            android:textAllCaps="false"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
