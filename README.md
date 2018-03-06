@@ -2,6 +2,11 @@
 An Android library to do a lot more with your bitmaps, This library puts blur effect fast and efficiently, rotate it with the same quality, manage the quality with pixel range, scale to you requirements.
 
 
+![:p](https://media.giphy.com/media/9DppHDK7Y2jnKYbxgC/giphy.gif) ------
+![:p](https://media.giphy.com/media/4HicBsKTbSbSgJ9ri0/giphy.gif) ------
+![:p](https://media.giphy.com/media/kPAEfjWhOz1ossSw1B/giphy.gif)
+
+
 # Installing
 
 For a working implementation of this project see the `app/` folder.
