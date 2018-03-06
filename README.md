@@ -1,5 +1,5 @@
-# Bitmaptic-Android
-A library to do a lot more with your bitmaps, This library puts blur effect fast and efficiently, rotate it with the same quality, manage the quality with pixel range, scale to you requirements.
+# Bitmaptic
+An Android library to do a lot more with your bitmaps, This library puts blur effect fast and efficiently, rotate it with the same quality, manage the quality with pixel range, scale to you requirements.
 
 
 # Installing
@@ -20,7 +20,7 @@ For a working implementation of this project see the `app/` folder.
 2. Include the following dependency.
 
 ```
-compile 'com.github.AmeerHamzaaa:Bitmaptic-Android:0.1.2'
+compile 'com.github.AmeerHamzaaa:Bitmaptic:0.1.2'
 ```
 
 # Usage
