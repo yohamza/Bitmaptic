@@ -45,6 +45,18 @@ bitmap = Bitmaptic.scaleToSizeKeepingAspectRatio(bitmap, 1000, true);
 bitmap = Bitmaptic.scaleToPixelQuality(bitmap, 400, 400);
 ```
 
+For ease of making bitmaps from imageview or uri use:
+
+```java
+
+//Convert your ImageView to Bitmap
+bitmap = Bitmaptic.getBitmapFromImageView(imageView);
+
+//Convert Uri to Bitmap
+bitmap = Bitmaptic.convertUritoBitmap(imageUri, context) //This might create some problems
+
+```
+
 
 ### That's all you need to do.
 
